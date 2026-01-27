@@ -1,0 +1,17 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
+.title {
+  color: orange;
+}
+
+.img {
+  width: 300px;
+  border: 2px solid orange;
+}
+
+audio {
+  margin-top: 20px;
+}
