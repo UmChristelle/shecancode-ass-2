@@ -84,5 +84,10 @@ footer {
   margin-top: 10px;          
   margin-bottom: 30px;       
 }
-/* Commit 3: CSS styling */
+h2 {
+    color: darkgreen;
+}
+p {
+    line-height: 1.5;
+}
 
