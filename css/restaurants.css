@@ -19,4 +19,6 @@ table, th, td {
 th {
   background-color: lightgray;
 }
-/* Commit 6: Styled Restaurants page */
+h2 {
+    color: darkgreen;
+}

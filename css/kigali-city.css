@@ -18,4 +18,6 @@ ol li {
 iframe {
   margin-top: 15px;
 }
-/* Commit 5: Refined CSS for Kigali City page */
+body {
+    margin: 10px; 
+}

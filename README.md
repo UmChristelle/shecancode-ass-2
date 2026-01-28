@@ -25,5 +25,3 @@ This project is a simple multi-page website created to showcase places to visit,
 ## Student Information
 Name: Umutoni Christella  
 Course:frontend 
-
-<!-- Commit 4: README.md -->
