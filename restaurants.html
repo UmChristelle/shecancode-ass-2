@@ -1,47 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Restaurants in Kigali</title>
   <link rel="stylesheet" href="css/restaurants.css">
 </head>
 <body>
 
-<a href="index.html">← Back to Home</a>
+<a href="index.html" class="back-link">← Back to Home</a>
 
-<h1 class="title">Best Restaurants</h1>
+<header>
+  <h1 class="title">Top Restaurants in Kigali</h1>
+  <p class="description">Kigali offers a wide variety of local and international cuisine. Discover the must-visit restaurants in the city.</p>
+</header>
 
-<p>Kigali has amazing local and international restaurants.</p>
-
-<img src="images/food.jpg.jpg" alt="Food in Kigali" class="img">
-
-<h2>Top Restaurants</h2>
-<ol>
-  <li>Heaven Restaurant</li>
-  <li>Pili Pili</li>
-  <li>Meze Fresh</li>
-</ol>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Location</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <td>Heaven</td>
-    <td>Kiyovu</td>
-    <td>International</td>
-  </tr>
-</table>
-
-<a 
-  href="https://www.tripadvisor.com/Restaurants-g293829-Kigali_Kigali_City_Rwanda.html" 
-  target="_blank" 
-  rel="noopener">
-  See restaurants in Kigali on TripAdvisor
-</a>
+<main>
+  <section class="restaurant-images">
+  <figure>
+    <img src="images/food.jpg.jpg" alt="Delicious Rwandan dishes">
+    <figcaption>Traditional Rwandan Dishes</figcaption>
+  </figure>
+  <figure>
+    <img src="images/modern restaurant.jpg" alt="Modern Kigali restaurant">
+    <figcaption>Modern Dining Experience</figcaption>
+  </figure>
+</section>
 
 
+  <section>
+    <h2>Top Restaurants List</h2>
+    <ol class="restaurants-list">
+      <li>Heaven Restaurant</li>
+      <li>Pili Pili</li>
+      <li>Meze Fresh</li>
+      <li>The Hut</li>
+      <li>Bourbon Coffee</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Restaurant Details Table</h2>
+    <table class="restaurants-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Location</th>
+          <th>Type</th>
+          <th>Average Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Heaven</td>
+          <td>Kiyovu</td>
+          <td>International</td>
+          <td>$15</td>
+        </tr>
+        <tr>
+          <td>Pili Pili</td>
+          <td>Nyarutarama</td>
+          <td>African Cuisine</td>
+          <td>$12</td>
+        </tr>
+        <tr>
+          <td>Meze Fresh</td>
+          <td>Kigali City</td>
+          <td>Mediterranean</td>
+          <td>$18</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Video Tour</h2>
+    <video controls width="400">
+      <source src="media/video/video.mp4.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </section>
+
+  <section>
+    <h2>External Links</h2>
+    <ul>
+      <li><a href="https://www.tripadvisor.com/Restaurants-g293829-Kigali_Kigali_City_Rwanda.html" target="_blank" rel="noopener">See more restaurants on TripAdvisor</a></li>
+      <li><a href="https://www.rwandatourism.com/dining" target="_blank" rel="noopener">Rwanda Tourism Dining Guide</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Explore Kigali | Restaurant Guide</p>
+</footer>
 
 </body>
 </html>

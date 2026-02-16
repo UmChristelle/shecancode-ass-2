@@ -1,24 +1,54 @@
 body {
   background-color: #fff8f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .title {
   color: brown;
+  margin-top: 20px;
 }
 
-.img {
-  width: 250px;
-  border-radius: 10px;
+.restaurant-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.restaurant-images figure {
+  margin: 0;
+  text-align: center;
+}
+
+.restaurant-images img {
+  height: 250px;       
+  width: auto;          
+  border-radius: 15px;
+  border: 3px solid brown;
+  object-fit: cover;
 }
 
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 th {
   background-color: lightgray;
+  padding: 8px;
 }
+
+td {
+  padding: 8px;
+}
+
 h2 {
-    color: darkgreen;
+  color: darkgreen;
+  margin-top: 20px;
 }
