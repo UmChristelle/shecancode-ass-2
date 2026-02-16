@@ -1,23 +1,74 @@
 body {
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
+  margin: 10px;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
 }
 
 .title {
   color: darkblue;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.img {
+.description {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.city-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.city-images .img {
   width: 300px;
   border: 2px solid black;
+  border-radius: 8px;
 }
 
-ol li {
+.places {
+  margin-left: 20px;
+}
+
+.places li, .tips li {
   margin-bottom: 8px;
 }
 
-iframe {
-  margin-top: 15px;
+.attractions-table {
+  width: 80%;
+  margin: 10px auto 20px auto;
+  border-collapse: collapse;
 }
-body {
-    margin: 10px; 
+
+.attractions-table th, .attractions-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.attractions-table th {
+  background-color: #cce5ff;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
 }

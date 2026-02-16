@@ -1,11 +1,13 @@
 body {
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+  background-color: #f0f0f0;
+  line-height: 1.5;
 }
 
 .back-link {
@@ -21,25 +23,59 @@ body {
 }
 
 .title {
+  color: #800080;
   margin-bottom: 10px;
 }
 
 .description {
-  max-width: 600px;
+  max-width: 700px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
-.img {
-  width: 60%;
-  max-width: 500px;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
-.places {
-  text-align: left;
+.nightlife-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   margin-bottom: 20px;
 }
 
-iframe {
+.nightlife-images .img {
+  width: 300px;
   border-radius: 10px;
+  border: 2px solid #800080;
+}
+
+.nightlife-list {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.nightlife-list li {
+  margin-bottom: 8px;
+}
+
+.nightlife-table {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  border-collapse: collapse;
+}
+
+.nightlife-table th, .nightlife-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.nightlife-table th {
+  background-color: #e6ccff;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
 }

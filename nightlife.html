@@ -1,22 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Nightlife</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nightlife in Kigali</title>
   <link rel="stylesheet" href="css/nightlife.css">
 </head>
 <body>
 
-<a href="index.html">← Back to Home</a>
+<a href="index.html" class="back-link">← Back to Home</a>
 
-<h1 class="title">Kigali Nightlife</h1>
+<header>
+  <h1 class="title">Kigali Nightlife</h1>
+  <p class="description">Discover the vibrant nightlife of Kigali. From lively bars to music venues, experience the city after dark.</p>
+</header>
 
-<img src="images/night.jpg.jpg" alt="Nightlife" class="img">
+<main>
+  <section class="nightlife-images">
+    <figure>
+      <img src="images/trendy bar.jpg" alt="Trendy Kigali bar" class="img">
+      <figcaption>Trendy Bar</figcaption>
+    </figure>
+    <figure>
+      <img src="images/kigalinightclub.jpg" alt="Kigali nightclub" class="img">
+      <figcaption>Nightclub Scene</figcaption>
+    </figure>
+  </section>
 
-<p>Kigali nightlife includes lounges, clubs, and live music.</p>
+  <section>
+    <h2>Top Nightlife Spots</h2>
+    <ul class="nightlife-list">
+      <li>Papyrus Kigali</li>
+      <li>Kigali Heights Rooftop Bar</li>
+      <li>The Office Bar</li>
+      <li>Poison Nightclub</li>
+      <li>Bourbon Lounge</li>
+    </ul>
+  </section>
 
-<audio controls>
-  <source src="media/Audio/audio.mp3.mp3" type="audio/mpeg">
-</audio>
+  <section>
+    <h2>Nightlife Table</h2>
+    <table class="nightlife-table">
+      <thead>
+        <tr>
+          <th>Place</th>
+          <th>Type</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Papyrus Kigali</td>
+          <td>Bar & Lounge</td>
+          <td>Kigali City Center</td>
+        </tr>
+        <tr>
+          <td>The Office Bar</td>
+          <td>Bar</td>
+          <td>Kiyovu</td>
+        </tr>
+        <tr>
+          <td>Poison Nightclub</td>
+          <td>Nightclub</td>
+          <td>Nyarutarama</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Location Map</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.740340121345!2d30.057020715257042!3d-1.9578757361051867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dce5e1a8b4d8fb%3A0x7d3f4e1c2fcd0e84!2sKigali!5e0!3m2!1sen!2srw!4v1706354467890!5m2!1sen!2srw"
+      width="600"
+      height="350"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Explore Kigali | Nightlife Guide</p>
+</footer>
 
 </body>
 </html>
